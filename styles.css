@@ -1,0 +1,62 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    height: 100vh;
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+header span {
+    color: #3498db;
+}
+
+header p {
+    color: #ddd;
+    font-size: 1.2rem;
+}
+
+header a {
+    margin-top: 20px;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    padding: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
